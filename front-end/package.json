@@ -1,0 +1,44 @@
+{
+  "name": "todo-app-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "engines": {
+    "node": "16.17.0",
+    "npm": "9.2.0"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

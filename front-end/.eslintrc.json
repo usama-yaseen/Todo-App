@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/react-in-jsx-scope": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-key": "warn",
+    "react/prop-types": "warn",
+    "react/no-unescaped-entities": "warn",
+    "react/no-deprecated": "warn",
+    "react/no-direct-mutation-state": "error",
+    "react/no-find-dom-node": "warn",
+    "react/no-unused-state": "warn",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      { "props": "never", "children": "never" }
+    ],
+    "no-console": "off",
+    "no-alert": "error",
+    "max-lines": ["warn", { "max": 300 }],
+    "max-len": ["warn", { "code": 120 }],
+    "indent": ["warn", 2],
+    "semi": ["warn", "always"],
+    "quotes": ["warn", "single"]
+  }
+}
