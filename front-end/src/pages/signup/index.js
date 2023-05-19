@@ -33,7 +33,6 @@ const Signup = () => {
       localStorage.setItem('token', response.data.token);
       navigate('/', { replace: true });
     } else {
-      console.log(response);
       setError(
         response.data.message ||
           'Something went wrong. Please try again later.',
